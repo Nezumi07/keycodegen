@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	color: rgb(33, 218, 156);
+	font-size: 25px;
+	font-weight: 500;
+	font-family: "Raleway", sans-serif;
+	background-color: lightgrey;
+	margin-top: 5%;
+    margin-left: 5%;
+	text-align: center;
+    /* border-style: double; */
+}
+#page1 {
+	/* display: none; */
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	background-color: lightgrey;
+	height: 80vh;
+}
+.page1-heading {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	max-width: 700px;
+    font-size: 20px;
+}
+#page2 {
+	display: none;
+	/* display: block; */
+}
+.page2-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+.page2-event-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	/* align-items: center; */
+	width: 30vw;
+    margin-bottom: 30%;
+    margin-right: 5%;
+    /* border-style:double; */
+}
+.box {
+	padding: 10px;
+}
+.display {
+	display: flex;
+	color: orangered;
+	font-size: 350px;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 20%;
+    margin-left: 5%;
+    border-style: solid;
+}
+h2 {
+	font-size: 80px;
+	text-align: center;
+    font-weight: 500;
+}
+h3 {
+	color: white;
+	font-size: 40px;
+	margin: 2px 0;
+
+}
+
+h4 {
+	color: white;
+	font-size: 35px;
+    text-align: left;
+	margin: 2px 0;
+}
+
